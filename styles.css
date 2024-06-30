@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a.btn {
+    background: #e31a1a;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero .btn {
+    background: #e31a1a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.features {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.features .feature {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.about {
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.services {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.services .service {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer {
+    background: #333;
+   
